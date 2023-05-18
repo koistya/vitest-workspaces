@@ -1,0 +1,17 @@
+# Cache
+/.cache
+
+# Compiled output
+/*/dist
+
+# Yarn package manager with PnP
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Misc
+node_modules

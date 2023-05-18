@@ -1,0 +1,20 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "vitest.commandLine": "yarn test",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js",
+  "files.exclude": {
+    "**/.git": true,
+    "**/.pnp.*": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/yarn.lock": true
+  }
+}
